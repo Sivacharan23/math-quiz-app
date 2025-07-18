@@ -1,1 +1,40 @@
-<!-- placeholder -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Math Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Login Screen -->
+  <div class="login-container" id="loginContainer">
+    <h2>Login to Start</h2>
+    <input type="text" id="loginName" placeholder="Your name" />
+    <input type="email" id="loginEmail" placeholder="Your email" />
+    <button onclick="startApp()">Login</button>
+  </div>
+
+  <!-- Quiz App -->
+  <div class="quiz-container" id="quizContainer" style="display:none;">
+    <div class="top-bar">
+      <h2 id="level">Level: 1</h2>
+      <p id="welcomeUser"></p>
+      <label class="switch">
+        <input type="checkbox" id="darkToggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
+    <h3 id="question">Loading...</h3>
+    <input type="number" id="answerInput" placeholder="Your answer" />
+    <button id="submit">Submit</button>
+    <p id="timer">Time Left: 15s</p>
+    <p id="score">Score: 0</p>
+    <p id="progress">Question 1 of 20</p>
+    <canvas id="certificateCanvas" width="600" height="400" style="display:none;"></canvas>
+    <a id="downloadCert" style="display:none;" download="certificate.png">Download Certificate</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
