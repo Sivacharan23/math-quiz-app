@@ -55,7 +55,7 @@ math-quiz-app/
 
 ## 🌐 Live Demo
 
-> [https://yourusername.github.io/math-quiz-app/](https://yourusername.github.io/math-quiz-app/)
+> [https://Sivacharan23.github.io/math-quiz-app/](https://Sivacharan23.github.io/math-quiz-app/)
 
 ---
 
